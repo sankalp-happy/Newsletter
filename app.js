@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static("public")); //Uploading the static files for .css and .js to work on server.
 
-app.get("/", function(req, res){
+app.get("/new", function(req, res){
     res.sendFile(__dirname + "/login.html")
 })
 
@@ -69,6 +69,7 @@ app.post("/failure", function(req, res){
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Server started on port 3000");
+    console.log(__dirname + "/login.html");
 })
 
 
