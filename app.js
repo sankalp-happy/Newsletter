@@ -39,7 +39,7 @@ app.post("/", function(req, res){
         url : "https://us17.api.mailchimp.com/3.0/lists/55de5f5c28",
         method : "POST",
         headers: {
-            "Authorization": "sankalp 0f775f30f8ce58318571530c238381a0-us17"
+            "Authorization": "sankalp *AuthToken*"
         },
         body: myJsonData
 
@@ -75,7 +75,7 @@ app.listen(process.env.PORT || 3000, function(){
 
 /* 
 
-API Key : 0f775f30f8ce58318571530c238381a0-us17
+API Key : *API Key*
 API List : 55de5f5c28
 
 */
