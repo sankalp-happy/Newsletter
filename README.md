@@ -1,2 +1,2 @@
 # Newsletter
-A newsletter site using node.js, express.js , bootstrap.
+A newsletter site made using node.js, express.js , bootstrap.
