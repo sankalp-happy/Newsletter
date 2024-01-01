@@ -1,2 +1,2 @@
 # Newsletter
-A newsletter site.
+A newsletter site using node.js, express.js , bootstrap.
